@@ -1,0 +1,6 @@
+C:\Users\asus\OneDrive\Documents\GitHub\ACES\ACES 1\ACES 1\obj\Debug\ACES 1.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Documents\GitHub\ACES\ACES 1\ACES 1\obj\Debug\ACES 1.exe.config
+C:\Users\asus\OneDrive\Documents\GitHub\ACES\ACES 1\ACES 1\obj\Debug\ACES_1.Form1.resources
+C:\Users\asus\OneDrive\Documents\GitHub\ACES\ACES 1\ACES 1\obj\Debug\ACES_1.Properties.Resources.resources
+C:\Users\asus\OneDrive\Documents\GitHub\ACES\ACES 1\ACES 1\obj\Debug\ACES 1.csproj.GenerateResource.cache
+C:\Users\asus\OneDrive\Documents\GitHub\ACES\ACES 1\ACES 1\obj\Debug\ACES 1.csproj.CoreCompileInputs.cache
