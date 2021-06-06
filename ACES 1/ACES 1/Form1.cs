@@ -23,25 +23,18 @@ namespace ACES_1
         private void Form1_Load(object sender, EventArgs e)
         {
             MySqlConnection baglanti = new MySqlConnection("server=localhost;user id=root;persistsecurityinfo=True;database=diyetveri_050621");
+            baglanti.Open();
         }
 
-        private void btnAc_Click(object sender, EventArgs e)
+        private void button1_Click()
         {
-            if (baglanti.state.ToString() == "Closed")
-            {
-                baglanti.Open();
-                MessageBox.Show("Acildi.");
-            }
+            MySqlConnection connection;
+            MySqlCommand command;
+            Data data1 = new Data();
+            connection= data1.getConnection();
+            connection.Open();
+            command = ("select hastalik, ogunTipID from diyet_takvim");
             
-        }
-
-        private void btnKapa_Click(object sender, EventArgs e)
-        {
-            if (baglanti.state.ToString() == "Opened")
-            {
-                baglanti.Close();
-                MessageBox.Show("Kapandi.");
-            }
         }
     }
 }
